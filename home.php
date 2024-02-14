@@ -203,7 +203,7 @@ $mysqli->close();
                 </nav>
             <?php else: ?>
                 <div class="alert alert-info" role="alert">
-                    No data available.
+                    <?php echo "No data available. :(";?>
                 </div>
             <?php endif; ?>
         </div>
